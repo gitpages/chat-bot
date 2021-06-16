@@ -9,6 +9,7 @@ let hobbies = ["i love to talk with humans", "i like to make friends like you", 
 let pizzas = ["which type of pizza do you like?", "i can make a pizza for you", "i would love to make a pizza for you", "would you like cheese pizza?"];
 let thank = ["Most welcome","Not an issue","Its my pleasure","Mention not"];
 let closing = ['Ok bye-bye','As you wish, bye take-care','Bye-bye, see you soon..']
+let Hallo = ["schönen Tag"]
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
