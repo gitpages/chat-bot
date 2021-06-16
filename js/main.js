@@ -47,7 +47,7 @@ function chatbotvoice(message){
         let finalresult = hobbies[Math.floor(Math.random() * hobbies.length)];
         speech.text = finalresult;
     }
-    if(message.includes('pizza')){
+    if(message.includes('Pizza')){
         let finalresult = pizzas[Math.floor(Math.random() * pizzas.length)];
         speech.text = finalresult;
     }
