@@ -43,7 +43,7 @@ function chatbotvoice(message){
         let finalresult = greetings[Math.floor(Math.random() * greetings.length)];
         speech.text = finalresult;
     }
-    if(message.includes('tell me something about you' || 'tell me something about your hobbies')){
+    if(message.includes('Tell me Something about You' || 'tell me something about your hobbies')){
         let finalresult = hobbies[Math.floor(Math.random() * hobbies.length)];
         speech.text = finalresult;
     }
@@ -56,7 +56,8 @@ function chatbotvoice(message){
         speech.text = finalresult;
     }
     if(message.includes('talk to you' || 'talk')){
-        let finalresult = closing[Math.floor(Math.random() * closing.length)];
+        let finalresult = closing[Math.floor(Math.random
+() * closing.length)];
         speech.text = finalresult;
     }
     window.speechSynthesis.speak(speech);
